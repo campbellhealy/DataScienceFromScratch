@@ -2,6 +2,8 @@
 
 from collections import Counter, defaultdict
 from rawData import users, friendship_pairs, salaries_and_tenures
+import re 
+import matplotlib.pyplot as plt
 
 # Initialize the dict with an empty list for each user id:
 friendships = {user["id"]: [] for user in users}
@@ -75,8 +77,8 @@ def data_scientists_who_like(target_interest):
 # Keys are user_ids, values are lists of interests for that user_id.
 # interests_by_user_id = defaultdict(list)
 
-for user_id, interest in interests:
-    interests_by_user_id[user_id].append(interest)
+# for user_id, interest in interests:
+#     interests_by_user_id[user_id].append(interest)
 
 def most_common_interests_with(user):
     return Counter(
