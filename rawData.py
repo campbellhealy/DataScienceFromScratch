@@ -37,3 +37,6 @@ interests = [
     (8, "Big Data"), (8, "artificial intelligence"), (9, "Hadoop"),
     (9, "Java"), (9, "MapReduce"), (9, "Big Data")
 ]
+
+
+document=['Every','one','of','these','is','slightly','unwieldy','','which','is','why','defaultdict','is','useful.','A','defaultdict','is','like','a','regular','dictionary','','except','that','when','you','try','to','look','up','a','key','it','doesn’t','contain','','it','first','adds','a','value','for','it','using','a','zero-argument','function','you','provided','when','you','created','it.','In','order','to','use','defaultdicts','','you','have','to','import','them','from','collections:','Grus','','Joel.','Data','Science','from','Scratch','.','OReilly','Media','Kindle','Edition']
